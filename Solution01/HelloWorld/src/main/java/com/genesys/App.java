@@ -8,7 +8,6 @@ public class App
 {
     public static void main( String[] args )
     {
-        String name = "world";
         if (args.length > 0 && !args[0].isEmpty())
             System.out.println(greetings(args[0]));
         else
