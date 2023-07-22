@@ -3,7 +3,7 @@ package com.genesys;
 import java.util.Scanner;
 
 /**
- * Hello world!
+ * Character Counting
  *
  */
 public class App
@@ -27,6 +27,9 @@ public class App
         return sc.nextLine();
     }
 
+    /*
+     * This exists just for the sake of creating a unit test.
+    */
     public static Integer count(String data) {
         return data.length();
     }
